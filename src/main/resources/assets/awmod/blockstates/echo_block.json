@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "awmod:block/echo_block"
+    }
+  }
+}

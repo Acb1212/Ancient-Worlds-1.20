@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "awmod:item/echo_items/ingredients/echo_ingot"
+  }
+}

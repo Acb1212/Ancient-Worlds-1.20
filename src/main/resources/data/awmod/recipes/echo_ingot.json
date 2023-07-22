@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "h": {
+      "item": "awmod:heart_of_the_deep"
+    },
+    "e": {
+      "item": "minecraft:echo_shard"
+    },
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "aea",
+    "ehe",
+    "aea"
+  ],
+  "result": {
+    "count": 1,
+    "item": "awmod:echo_ingot"
+  },
+  "show_notification": true
+}

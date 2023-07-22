@@ -1,0 +1,7 @@
+{
+	"parent": "awmod:block/parent_models/statuette",
+	"textures": {
+		"0": "awmod:block/relics/statuettes/statuette_creeper",
+		"particle": "awmod:block/relics/statuettes/statuette_creeper"
+	}
+}

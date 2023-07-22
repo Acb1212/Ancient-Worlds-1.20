@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "awmod:echo_helmet",
+    "awmod:echo_chestplate",
+    "awmod:echo_leggings",
+    "awmod:echo_boots"
+  ]
+}

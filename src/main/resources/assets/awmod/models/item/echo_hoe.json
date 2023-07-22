@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "awmod:item/echo_items/tools/echo_hoe"
+  }
+}

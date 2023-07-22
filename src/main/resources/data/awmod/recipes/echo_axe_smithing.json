@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "awmod:echo_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "result": {
+    "item": "awmod:echo_axe"
+  },
+  "template": {
+    "item": "awmod:echo_upgrade_smithing_template"
+  }
+}
