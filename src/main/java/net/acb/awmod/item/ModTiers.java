@@ -1,6 +1,6 @@
 package net.acb.awmod.item;
 
-import net.acb.awmod.ModTag;
+import net.acb.awmod.block.custom.ModTag;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;
 

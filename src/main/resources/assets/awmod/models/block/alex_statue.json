@@ -1,0 +1,7 @@
+{
+	"parent": "awmod:block/parent_models/statue/statue_top",
+	"textures": {
+		"0": "awmod:block/relics/statue/alex",
+		"particle": "awmod:block/relics/statue/alex"
+	}
+}

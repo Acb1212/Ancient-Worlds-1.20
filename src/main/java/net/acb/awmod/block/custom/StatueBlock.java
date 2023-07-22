@@ -23,7 +23,7 @@ import org.jetbrains.annotations.Nullable;
 public class StatueBlock extends HorizontalDirectionalBlock {
     public static final EnumProperty<DoubleBlockHalf> HALF = BlockStateProperties.DOUBLE_BLOCK_HALF;
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
-    private static final VoxelShape SHAPE = Block.box(0,0,0,16,16,16);
+    private static final VoxelShape SHAPE = Block.box(4,0,4,12,16,12);
 
 
     //This just sets the block to default as the pedestal.

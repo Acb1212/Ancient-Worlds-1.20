@@ -1,9 +1,9 @@
 {
   "variants": {
-    "facing=north, half=lower": {
+    "facing=north,half=lower": {
       "model": "awmod:block/parent_models/statue/statue_bottom"
     },
-    "facing=south, half=lower": {
+    "facing=south,half=lower": {
       "model": "awmod:block/parent_models/statue/statue_bottom",
       "y": 180
     },
@@ -11,23 +11,23 @@
       "model": "awmod:block/parent_models/statue/statue_bottom",
       "y": 90
     },
-    "facing=west, half=lower": {
+    "facing=west,half=lower": {
       "model": "awmod:block/parent_models/statue/statue_bottom",
       "y": 270
     },
-    "facing=north, half=upper": {
-      "model": "awmod:block/parent_models/statue/statue_top"
+    "facing=north,half=upper": {
+      "model": "awmod:block/alex_statue"
     },
-    "facing=south, half=upper": {
-      "model": "awmod:block/parent_models/statue/statue_top",
+    "facing=south,half=upper": {
+      "model": "awmod:block/alex_statue",
       "y": 180
     },
     "facing=east,half=upper": {
-      "model": "awmod:block/parent_models/statue/statue_top",
+      "model": "awmod:block/alex_statue",
       "y": 90
     },
-    "facing=west, half=upper": {
-      "model": "awmod:block/parent_models/statue/statue_top",
+    "facing=west,half=upper": {
+      "model": "awmod:block/alex_statue",
       "y": 270
     }
   }

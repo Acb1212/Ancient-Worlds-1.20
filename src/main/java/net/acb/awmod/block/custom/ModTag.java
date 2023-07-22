@@ -1,5 +1,6 @@
-package net.acb.awmod;
+package net.acb.awmod.block.custom;
 
+import net.acb.awmod.AWMod;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;

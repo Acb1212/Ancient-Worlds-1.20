@@ -1,23 +1,30 @@
 {
+  "__comment1": "Materials",
   "item.awmod.echo_ingot": "Echo Ingot",
   "item.awmod.heart_of_the_deep": "Heart of the Deep",
   "item.awmod.echo_upgrade_smithing_template": "Smithing Template",
 
+  "__comment2": "TOOLS",
   "item.awmod.echo_sword": "Echo Sword",
   "item.awmod.echo_pickaxe": "Echo Pickaxe",
   "item.awmod.echo_shovel": "Echo Shovel",
   "item.awmod.echo_axe": "Echo Axe",
   "item.awmod.echo_hoe": "Echo Hoe",
 
+
+  "__comment3": "Armor",
   "item.awmod.echo_helmet": "Echo Helmet",
   "item.awmod.echo_chestplate": "Echo Chestplate",
   "item.awmod.echo_leggings": "Echo Leggings",
   "item.awmod.echo_boots": "Echo Boots",
 
 
+  "__comment4": "Blocks",
   "block.awmod.echo_block": "Echo Block",
   "block.awmod.creeper_statuette": "Creeper Statuette",
+  "block.awmod.alex_statue": "Statue",
 
+  "__comment5": "Translatables",
   "item.minecraft.smithing_template.echo_upgrade.applies_to": "Netherite Equipment",
   "item.minecraft.smithing_template.echo_upgrade.ingredients": "Echo Ingot",
   "item.minecraft.smithing_template.echo_upgrade.base_slot_description": "Add netherite armor, weapon or tool",
