@@ -2,7 +2,9 @@ package net.acb.awmod;
 
 import com.mojang.logging.LogUtils;
 import net.acb.awmod.block.ModBlocks;
+import net.acb.awmod.event.loot.ModLootModifiers;
 import net.acb.awmod.item.ModItem;
+import net.acb.awmod.item.custom.ModCreativeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -28,12 +30,16 @@ public class AWMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+
+
         ModItem.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeTab.register(modEventBus);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -48,23 +54,7 @@ public class AWMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItem.ECHO_INGOT);
-            event.accept(ModItem.HEART_OF_THE_DEEP);
-            event.accept(ModItem.ECHO_UPGRADE_SMITHING_TEMPLATE);
-            event.accept(ModItem.ECHO_SWORD);
-            event.accept(ModItem.ECHO_HOE);
-            event.accept(ModItem.ECHO_AXE);
-            event.accept(ModItem.ECHO_PICKAXE);
-            event.accept(ModItem.ECHO_SHOVEL);
-            event.accept(ModBlocks.ECHO_BLOCK);
-            event.accept(ModItem.ECHO_HELMET);
-            event.accept(ModItem.ECHO_CHESTPLATE);
-            event.accept(ModItem.ECHO_LEGGINGS);
-            event.accept(ModItem.ECHO_BOOTS);
-            event.accept(ModBlocks.CREEPER_STATUETTE);
-            event.accept(ModBlocks.ALEX_STATUE);
-        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

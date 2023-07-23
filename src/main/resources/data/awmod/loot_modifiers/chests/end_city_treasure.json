@@ -1,0 +1,11 @@
+{
+  "type": "awmod:add_item",
+  "conditions": [
+    {
+     "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/end_city_treasure"
+    }
+  ],
+ "item": "awmod:echo_upgrade_smithing_template",
+  "odds": 0.1
+}

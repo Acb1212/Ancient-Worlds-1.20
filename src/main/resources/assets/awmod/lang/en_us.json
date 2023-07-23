@@ -23,12 +23,15 @@
   "block.awmod.echo_block": "Echo Block",
   "block.awmod.creeper_statuette": "Creeper Statuette",
   "block.awmod.alex_statue": "Statue",
+  "block.awmod.blank_statue": "Statue",
 
   "__comment5": "Translatables",
   "item.minecraft.smithing_template.echo_upgrade.applies_to": "Netherite Equipment",
   "item.minecraft.smithing_template.echo_upgrade.ingredients": "Echo Ingot",
   "item.minecraft.smithing_template.echo_upgrade.base_slot_description": "Add netherite armor, weapon or tool",
   "item.minecraft.smithing_template.echo_upgrade.additions_slot_description": "Add Echo Ingot",
-  "upgrade.minecraft.echo_upgrade": "Echo Upgrade"
+  "upgrade.minecraft.echo_upgrade": "Echo Upgrade",
+  "creativetab.deep_dark_tab": "Deep Dark",
+  "creativetab.relics": "Relics"
 
 }

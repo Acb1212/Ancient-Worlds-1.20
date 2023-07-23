@@ -23,7 +23,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ECHO_BLOCK = registerBlock("echo_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.SCULK_CATALYST)));
     public static final RegistryObject<Block> CREEPER_STATUETTE = registerBlock("creeper_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
-    public static final RegistryObject<Block> ALEX_STATUE = registerBlock("alex_statue", () -> new StatueBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> BLANK_STATUE = registerBlock("blank_statue", () -> new StatueBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion()));
+    public static final RegistryObject<Block> ALEX_STATUE = registerBlock("alex_statue", () -> new StatueBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion()));
 
 
 
