@@ -6,6 +6,8 @@
       "loot_table_id": "minecraft:entities/warden"
     }
   ],
+  "odds": 0.75,
   "item": "awmod:heart_of_the_deep",
-  "odds": 0.6
+  "count": 1
+
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "awmod:block/wither_skeleton_statuette"
+    },
+    "facing=south": {
+      "model": "awmod:block/wither_skeleton_statuette",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "awmod:block/wither_skeleton_statuette",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "awmod:block/wither_skeleton_statuette",
+      "y": 270
+    }
+  }
+}

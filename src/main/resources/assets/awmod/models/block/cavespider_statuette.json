@@ -1,0 +1,7 @@
+{
+	"parent": "awmod:block/spider_statuette",
+	"textures": {
+		"0": "awmod:block/relics/statuettes/cavespider_statuette",
+		"particle": "awmod:block/relics/statuettes/cavespider_statuette"
+	}
+}

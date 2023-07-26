@@ -7,5 +7,6 @@
     }
   ],
  "item": "awmod:echo_upgrade_smithing_template",
-  "odds": 0.1
+  "odds": 0.1,
+  "count": 1
 }

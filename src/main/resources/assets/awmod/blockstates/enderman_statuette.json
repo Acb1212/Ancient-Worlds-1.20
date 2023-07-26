@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "awmod:block/enderman_statuette"
+    },
+    "facing=south": {
+      "model": "awmod:block/enderman_statuette",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "awmod:block/enderman_statuette",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "awmod:block/enderman_statuette",
+      "y": 270
+    }
+  }
+}

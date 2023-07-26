@@ -41,9 +41,28 @@ public class ModCreativeTab {
             () -> CreativeModeTab.builder().withTabsBefore(ModCreativeTab.DEEP_DARK_TAB.getId()).icon(() -> new ItemStack(ModBlocks.CREEPER_STATUETTE.get()))
                     .title(Component.translatable("creativetab.relics"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModBlocks.ALEX_STATUE.get());
+                        //Statues
                         pOutput.accept(ModBlocks.BLANK_STATUE.get());
+                        pOutput.accept(ModBlocks.ALEX_STATUE.get());
+                        //Statuettes
+                        pOutput.accept(ModBlocks.BLANK_STATUETTE.get());
                         pOutput.accept(ModBlocks.CREEPER_STATUETTE.get());
+                        pOutput.accept(ModBlocks.ZOMBIE_STATUETTE.get());
+                        pOutput.accept(ModBlocks.ENDERMAN_STATUETTE.get());
+                        pOutput.accept(ModBlocks.SLIME_STATUETTE.get());
+                        pOutput.accept(ModBlocks.MAGMACUBE_STATUETTE.get());
+                        pOutput.accept(ModBlocks.SPIDER_STATUETTE.get());
+                        pOutput.accept(ModBlocks.CAVESPIDER_STATUETTE.get());
+                        pOutput.accept(ModBlocks.RAVAGER_STATUETTE.get());
+                        pOutput.accept(ModBlocks.ZOGLIN_STATUETTE.get());
+                        pOutput.accept(ModBlocks.HOGLIN_STATUETTE.get());
+                        pOutput.accept(ModBlocks.BLAZE_STATUETTE.get());
+                        pOutput.accept(ModBlocks.PHANTOM_STATUETTE.get());
+                        pOutput.accept(ModBlocks.GHAST_STATUETTE.get());
+                        pOutput.accept(ModBlocks.SKELETON_STATUETTE.get());
+                        pOutput.accept(ModBlocks.WITHER_SKELETON_STATUETTE.get());
+
+
                     }).build());
 
 

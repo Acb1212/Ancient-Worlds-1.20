@@ -1,0 +1,7 @@
+{
+	"parent": "awmod:block/hoglin_statuette",
+	"textures": {
+		"0": "awmod:block/relics/statuettes/zoglin_statuette",
+		"particle": "awmod:block/relics/statuettes/zoglin_statuette"
+	}
+}

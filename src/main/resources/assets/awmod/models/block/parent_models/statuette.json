@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "awmod:block/relics/statuettes/statuette_creeper",
-		"particle": "awmod:block/relics/statuettes/statuette_creeper"
+		"1": "awmod:block/relics/statuettes/blank_statuette",
+		"particle": "awmod:block/relics/statuettes/blank_statuette"
 	},
 	"elements": [
 		{

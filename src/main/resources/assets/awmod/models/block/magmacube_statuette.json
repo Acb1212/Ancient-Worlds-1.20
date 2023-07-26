@@ -1,0 +1,7 @@
+{
+	"parent": "awmod:block/slime_statuette",
+	"textures": {
+		"1": "awmod:block/relics/statuettes/magmacube_statuette",
+		"particle": "awmod:block/relics/statuettes/magmacube_statuette"
+	}
+}

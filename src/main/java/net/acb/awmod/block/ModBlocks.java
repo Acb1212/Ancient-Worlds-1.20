@@ -25,7 +25,21 @@ public class ModBlocks {
     public static final RegistryObject<Block> CREEPER_STATUETTE = registerBlock("creeper_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
     public static final RegistryObject<Block> BLANK_STATUE = registerBlock("blank_statue", () -> new StatueBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion()));
     public static final RegistryObject<Block> ALEX_STATUE = registerBlock("alex_statue", () -> new StatueBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion()));
-
+    public static final RegistryObject<Block> BLANK_STATUETTE = registerBlock("blank_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> ZOMBIE_STATUETTE = registerBlock("zombie_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> ENDERMAN_STATUETTE = registerBlock("enderman_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> SLIME_STATUETTE = registerBlock("slime_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> MAGMACUBE_STATUETTE = registerBlock("magmacube_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> SPIDER_STATUETTE = registerBlock("spider_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> CAVESPIDER_STATUETTE = registerBlock("cavespider_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> RAVAGER_STATUETTE = registerBlock("ravager_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> ZOGLIN_STATUETTE = registerBlock("zoglin_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> HOGLIN_STATUETTE = registerBlock("hoglin_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> BLAZE_STATUETTE = registerBlock("blaze_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> PHANTOM_STATUETTE = registerBlock("phantom_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> GHAST_STATUETTE = registerBlock("ghast_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> SKELETON_STATUETTE = registerBlock("skeleton_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
+    public static final RegistryObject<Block> WITHER_SKELETON_STATUETTE = registerBlock("wither_skeleton_statuette", () -> new StatuetteBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

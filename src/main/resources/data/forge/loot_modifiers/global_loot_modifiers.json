@@ -1,8 +1,9 @@
 {
   "replace": false,
   "entries": [
-    "awmod:chests/end_city_treasure",
-    "awmod:entities/warden"
+    "awmod:chests/end_city_treasure/echo_upgrade_smithing_template_from_end_city_treasure",
+    "awmod:entities/warden/heart_of_the_deep_from_warden",
+    "awmod:archaeology/stick_from_desert_sus"
   ]
 
 

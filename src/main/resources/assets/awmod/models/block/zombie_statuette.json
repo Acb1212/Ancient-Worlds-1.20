@@ -1,0 +1,7 @@
+{
+	"parent": "awmod:block/parent_models/statuette",
+	"textures": {
+		"1": "awmod:block/relics/statuettes/zombie_statuette",
+		"particle": "awmod:block/relics/statuettes/zombie_statuette"
+	}
+}
